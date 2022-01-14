@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"ownCode/Gochannel"
+	"ownCode/MyGoroutine"
 )
 
 func main() {
 	fmt.Println("this is a test")
-	Gochannel.ProCon()
+	MyGoroutine.Myfib()
 }
